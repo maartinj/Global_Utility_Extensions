@@ -10,10 +10,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+//            RoundedRectangle(cornerRadius: 10)
+//                .fill(Color(.red))
+//                .fill(Color(UIColor.red))
+//                .fill(Color(UIColor(red: 92/255, green: 173/255, blue: 207/255, alpha: 1.0)))
+//                .fill(Color(UIColor(named: "lightColor")!))
+//                .fill(Color(lightColor))
+//                .fill(Color(MyColors().darkColor))
+//                .fill(Color(MyColors.lightColor))
+//                .fill(Color(UIColor.lightColor))
+//                .fill(Color(.lightColor))
+//                .frame(width: 200, height: 200)
+            RoundedRectangle.light
+            RoundedRectangle.medium
+            RoundedRectangle.dark
         }
         .padding()
     }
